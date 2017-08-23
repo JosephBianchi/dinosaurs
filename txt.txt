@@ -1,0 +1,13 @@
+1. SELECT COUNT (*) FROM dinos;
+
+2. SELECT name FROM dinos WHERE period = 'Jurassic';
+
+3. SELECT SUM (length) FROM dinos WHERE period= 'Cretaceous';
+
+4. SELECT name, species FROM dinos WHERE period = 'Jurassic' OR period = 'Cretaceous' ORDER BY species;
+
+5. SELECT name FROM dinos WHERE t_order = 'Saurischia' AND diet= 'Herbivorous';
+
+6. 
+
+7. SELECT MIN(name) FROM dinos;
